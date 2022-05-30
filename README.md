@@ -6,4 +6,6 @@ Este projeto foi desenvolvido como pré requisito para conclusão de um Desafio 
 
 ### - HTML + CSS;
 ### - DOM Javascript;
-### - Responsividade;
+### - Responsividade.<br><br>
+
+**[Clique aqui para acessar a plataforma em produção](https://daniseveriano.github.io/clone-da-interface-instagram/).**
