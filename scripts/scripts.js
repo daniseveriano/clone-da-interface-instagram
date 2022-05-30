@@ -1,3 +1,12 @@
+window.addEventListener("load", () => {
+  const loading = document.querySelector(".loading");
+
+  setTimeout(() => {
+    loading.style.display = "none";
+  }, 3000);
+});
+
+
 let time = 5000;
 let currentIndex = 0;
 let images = document.querySelectorAll(".carousel__image");
