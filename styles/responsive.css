@@ -1,0 +1,24 @@
+@media screen and (max-width:870px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .container__images {
+        display: none;
+    }
+      
+      .carousel__image {
+        display: none;
+    }
+
+    .container__login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login__signup {
+        width: 350px;
+    }
+}
