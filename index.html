@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="./styles/styles.css" />
   <link rel="stylesheet" href="./styles/responsive.css" />
-  <script src="./script/scripts.js" defer></script>
+  <script src="./scripts/scripts.js" defer></script>
 </head>
 
 <body>
@@ -24,13 +24,12 @@
     <div class="container__login">
       <div class="login__signin">
         <img class="instagram__logo" src="./assets/instagram-title.png" alt="Instagram" />
-        <input type="email" id="user" placeholder="Telefone, nome de usuário ou e-mail" />
-        <input type="password" id="password" placeholder="Senha" />
-        <button type="submit">Entrar</button>
+        <input autocomplete="off" type="email" id="user" placeholder="Telefone, nome de usuário ou e-mail" />
+        <input autocomplete="off" type="password" id="password" placeholder="Senha" />
+        <span class="show">Mostrar</span>
+        <button id="submit" type="submit">Entrar</button>
         <div class="separator">
-          <div class="interval__left"></div>
-          <div class="separator__ou">OU</div>
-          <div class="interval__right"></div>
+          <span class="separator__ou">OU</span>
         </div>
         <div class="login__fboption">
           <div class="facebook">
