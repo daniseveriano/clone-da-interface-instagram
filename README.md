@@ -8,7 +8,7 @@ Este projeto foi desenvolvido como pré requisito para conclusão de um Desafio 
 ### - DOM Javascript;
 ### - Responsividade.<br><br>
 
-O projeto conta com uma Tela de Carregamento, Carrossel de Imagens Dinâmico, Label Floats, entre outras implementações. 
+O projeto conta com uma Tela de Carregamento, Carrossel de Imagens Dinâmico, Float Labels, entre outras implementações. 
 
 **[Clique aqui para acessar a plataforma em produção](https://daniseveriano.github.io/clone-da-interface-instagram/).**
 
