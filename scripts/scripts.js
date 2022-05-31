@@ -34,7 +34,7 @@ const user = document.querySelector("#user");
 const show = document.querySelector(".show");
 const button = document.querySelector("#submit");
 
-password.addEventListener("keyup", (e) => {
+password.addEventListener("keyup", (e) => {  
   let value = e.target.value;
 
   if (value === "" || value.length < 6) {

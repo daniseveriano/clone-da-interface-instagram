@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./styles/responsive.css" />
   <script src="./scripts/scripts.js" defer></script>
 </head>
+
 <body>
   <div class="loading">
     <img class="logo__loading" src="./assets/logo-carregamento.png" alt="Carregando o Instagram">
@@ -27,8 +28,10 @@
     <div class="container__login">
       <div class="login__signin">
         <img class="instagram__logo" src="./assets/instagram-title.png" alt="Instagram" />
-        <input autocomplete="off" type="email" id="user" placeholder="Telefone, nome de usuário ou e-mail" />
-        <input autocomplete="off" type="password" id="password" placeholder="Senha" />
+        <input autocomplete="off" type="email" id="user" required />
+        <span class="email__label">Telefone, nome de usuário ou e-mail</span>
+        <input autocomplete="off" type="password" id="password" required />
+        <span class="password__label">Senha</span>
         <span class="show">Mostrar</span>
         <button id="submit" type="submit">Entrar</button>
         <div class="separator">
